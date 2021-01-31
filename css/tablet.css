@@ -1,0 +1,83 @@
+@media (max-width: 62em) {
+
+    #links {
+        display: none;
+    }
+
+    #mobile-dropdown {
+        display: unset;
+
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow: hidden;
+    }
+
+    #mobile-dropdown {
+        transition: height 2s;
+    }
+
+    .nav-links-mobile {
+        color: orange;
+        padding: 0 0 2rem 0;
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .mobile-ul {
+        height: 100%;
+    }
+
+    nav {
+        width: 3rem;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-click {
+        display: unset;
+        z-index: 1000;
+        cursor: pointer;
+
+    }
+
+    .bar-one {
+        width: 3rem;
+        height: 0.2rem;
+        background-color: orange;
+        margin-bottom: 0.3rem;
+        z-index: 1000;
+    }
+
+    .bar-two {
+        height: 0.2rem;
+        background-color: orange;
+        z-index: 1000;
+    }
+
+    .main-text-div {
+        width: 73%;
+    }
+
+    #hide-footer {
+        display: none;
+    }
+
+    main {
+        height: 75%;
+    }
+
+    .language-p {
+        color: gray;
+    
+    }
+
+    .logo-burger {
+        margin-top: 10rem;
+        
+    }
+
+}

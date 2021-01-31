@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home-desktop.css">
+    <link rel="stylesheet" href="./css/small-desktop.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <script defer src="./javascript/app.js"></script>
     <title>TRIABYGG</title>
 </head>
@@ -14,6 +17,10 @@
         <div class="content-width flex space-between">
             <img class="triabygg-logo" src="./pictures/TriaByggLogo.png" alt="triabygg byggfirma logo" srcset="">
             <nav>
+                <div class="mobile-click flex centerh centery" id="burger-click">
+                    <div class="bar-one"></div>
+                    <div class="bar-two"></div>
+                </div>
                 <ul class="flex space-between" id="links">
                     <a class="nav-links" href="./index.html">Hem</a>
                     <a class="nav-links" href="./om.html">Om</a>
@@ -23,13 +30,35 @@
             </nav>
         </div>
     </header>
+    <div class="mobile-bar flex centerh centery" id="mobile-dropdown">
+        <ul class="flex column centerh centery mobile-ul">
+            <a class="nav-links-mobile" href="./index.html">Hem</a>
+            <a class="nav-links-mobile" href="./om.html">Om</a>
+            <a class="nav-links-mobile" href="#">Tjänster</a>
+            <a class="nav-links-mobile" href="#">Kontakt</a>
+
+            <div class="flex column centerh centery language-p">
+                <p>På svenska</p>
+                <p>Suomeksi</p>
+                <div class="flex logo-burger">
+                    <a href="https://www.instagram.com/triabygg/" target="_blank"><img class="social-media-footer"
+                            src="./pictures/instagram-mobile.png" alt="" srcset=""></a>
+                    <a href="https://www.facebook.com/TRIAbygg" target="_blank"><img class="social-media-footer"
+                            src="./pictures/facebook-mobile.png" alt="" srcset=""></a>
+
+                </div>
+
+            </div>
+        </ul>
+    </div>
 
     <main class="flex centerh">
         <div class="content-width main-div flex centerh centery">
             <div class="flex column main-text-div">
                 <p class="welcome-p">Välkommen till</p>
                 <span class="main-text">
-                    <img class="triabygg-logo-big" src="./pictures/TriaByggLogo.png" alt="triabygg byggfirma logo" srcset="">
+                    <img class="triabygg-logo-big" src="./pictures/TriaByggLogo.png" alt="triabygg byggfirma logo"
+                        srcset="">
                 </span>
                 <p class="main-text">Ett mångsidigt byggföretag i österbotten</p>
 
@@ -38,6 +67,34 @@
 
         </div>
     </main>
+    <footer class="flex centerh centery" id="hide-footer">
+        <div class="flex space-between content-width">
+            <div class="flex centery">
+                <ul class="flex centery centerh column flex-start-column">
+                    <a href="./om.html">
+                        <li>Om</li>
+                    </a>
+                    <a href="#">
+                        <li>Tjänster</li>
+                    </a>
+                    <a href="#">
+                        <li>Kontakt</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="flex centery">
+                <a href="https://www.instagram.com/triabygg/" target="_blank"><img class="social-media-footer"
+                        src="./pictures/instagram.png" alt="" srcset=""></a>
+                <a href="https://www.facebook.com/TRIAbygg" target="_blank"><img class="social-media-footer"
+                        src="./pictures/facebook.png" alt="" srcset=""></a>
+            </div>
+            <div class="flex columnflex centery centerh column flex-start-column">
+                <p>På svenska</p>
+                <p>Suomeksi</p>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 

@@ -1,0 +1,11 @@
+@media (max-width: 80em) {
+
+
+    .main-text-div {
+        width: 60%;
+    }
+
+    .main-text-div {
+        transition: width 3s;
+    }
+}

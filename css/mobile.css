@@ -1,0 +1,41 @@
+@media (max-width: 42em) {
+
+
+    .main-text-div {
+        width: 80%;
+    }
+
+    .main-text {
+        justify-content: flex-start;
+        font-size: 1.1rem;
+    }
+
+    .triabygg-logo-big {
+        width: 20rem;
+    }
+
+    .triabygg-logo-big {
+        transition: width 2s;
+    }
+
+    #hide-footer {
+        display: none;
+    }
+
+    main {
+        height: 75%;
+    }
+
+    .language-p {
+        color: gray;
+    
+    }
+
+    .logo-burger {
+        margin-top: 10rem;
+        
+    }
+
+
+
+}

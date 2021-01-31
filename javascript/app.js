@@ -1,9 +1,28 @@
-// window.addEventListener('load', main);
+window.addEventListener('load', main);
 
-// function main() {
-//     showBorderOnActiveLink();
+function main() {
+    // showBorderOnActiveLink();
+    addEventListeners();
  
-// }
+}
+
+function addEventListeners() {
+
+    const burgerBars = document.getElementById('burger-click');
+    burgerBars.addEventListener('click', openSideBar);
+}
+
+
+function openSideBar() {
+
+    const menu = document.getElementById('mobile-dropdown');
+    
+    if(menu.style.height === 0 +'%') {
+      menu.style.height = 100 +'%';
+    } else {
+      menu.style.height = 0 +'%'
+    }
+}
 
 // function showBorderOnActiveLink() {
 
