@@ -5,24 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home-desktop.css">
-    <script src="./javascript/app.js"></script>
+    <script defer src="./javascript/app.js"></script>
     <title>TRIABYGG</title>
 </head>
 
-<body>
+<body class="background">
     <header class="flex centerh centery">
-        <div class="nav-div flex space-between">
+        <div class="content-width flex space-between">
             <img class="triabygg-logo" src="./pictures/TriaByggLogo.png" alt="triabygg byggfirma logo" srcset="">
             <nav>
-                <ul class="flex space-between">
-                    <li>Hem</li>
-                    <li>Om</li>
-                    <li>Tjänster</li>
-                    <li>Kontakt</li>
+                <ul class="flex space-between" id="links">
+                    <a class="nav-links" href="./index.html">Hem</a>
+                    <a class="nav-links" href="./om.html">Om</a>
+                    <a class="nav-links" href="#">Tjänster</a>
+                    <a class="nav-links" href="#">Kontakt</a>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <main class="flex centerh">
+        <div class="content-width main-div flex centerh centery">
+            <div class="flex column main-text-div">
+                <p class="welcome-p">Välkommen till</p>
+                <span class="main-text">
+                    <img class="triabygg-logo-big" src="./pictures/TriaByggLogo.png" alt="triabygg byggfirma logo" srcset="">
+                </span>
+                <p class="main-text">Ett mångsidigt byggföretag i österbotten</p>
+
+            </div>
+
+
+        </div>
+    </main>
 
 </body>
 
