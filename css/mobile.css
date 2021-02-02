@@ -1,6 +1,37 @@
 @media (max-width: 42em) {
 
 
+        /* burger menu */
+
+    .language-p {
+        color: gray;
+        height: 30%;
+        
+    }
+    
+
+    .logo-burger {
+        margin-top: 2rem;
+            
+      }
+
+    #srict-margin {
+        padding-bottom: 4rem;
+     }
+
+    
+    
+    .burger-p {
+        margin-bottom: 1rem;
+    }
+
+    .strict-link {
+        color: orange;
+        padding: 0 0 4rem 0;
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
     .main-text-div {
         width: 100%;
     }
@@ -35,21 +66,51 @@
         height: 100%;
     }
 
-    .language-p {
-        color: gray;
-    
-    }
+ 
 
-    .logo-burger {
-        margin-top: 10rem;
-        
-    }
 
     /* about page  */
 
     .about-p {
         font-size: 1rem;
     }
+
+    /* services page */
+    .work-img {
+        width: auto;
+        height: 15rem;
+        
+    }
+
+    /* contact page */
+
+    .contact-socials-div-mobile {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .social-icons-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone-mail-location-icons {
+        width: 3rem;
+        height: auto;
+    }
+
+    /* .mobile-size {
+        width: 3rem;
+        height: auto;
+    } */
+
+    .div-margin {
+        margin-bottom: 2rem;
+    }
+
 
 
 

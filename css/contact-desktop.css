@@ -1,0 +1,15 @@
+
+.contact-socials-div {
+    width: 100%;
+}
+
+.phone-mail-location-icons {
+    width: auto;
+    height: 3rem;
+}
+
+.contact-p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
