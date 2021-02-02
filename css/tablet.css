@@ -17,8 +17,12 @@
         overflow: hidden;
     }
 
+    header {
+        z-index: 1000;
+    }
+
     #mobile-dropdown {
-        transition: height 2s;
+        transition: height 1s;
     }
 
     .nav-links-mobile {
@@ -67,7 +71,7 @@
     }
 
     main {
-        height: 75%;
+        height: 100%;
     }
 
     .language-p {

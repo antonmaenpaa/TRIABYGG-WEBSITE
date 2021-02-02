@@ -1,0 +1,30 @@
+.services-div {
+    width: 100%;
+}
+
+#main-div-services {
+    height: 80%;
+}
+
+
+.work-img {
+    width: auto;
+    height: 20rem;
+    
+}
+
+.img-one {
+    margin-right: -4rem;
+}
+.img-two {
+    margin-bottom: 10rem;
+}
+.img-three {
+    margin-left: -4rem;
+}
+
+.gallery {
+    margin: 0 0 4rem 0;
+    
+  
+}

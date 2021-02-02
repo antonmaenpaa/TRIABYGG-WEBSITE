@@ -2,7 +2,12 @@
 
 
     .main-text-div {
-        width: 80%;
+        width: 100%;
+    }
+
+    
+    header {
+        z-index: 1000;
     }
 
     .main-text {
@@ -11,7 +16,11 @@
     }
 
     .triabygg-logo-big {
-        width: 20rem;
+        width: 17rem;
+    }
+
+    .welcome-p {
+        font-size: 2rem;
     }
 
     .triabygg-logo-big {
@@ -23,7 +32,7 @@
     }
 
     main {
-        height: 75%;
+        height: 100%;
     }
 
     .language-p {
@@ -34,6 +43,12 @@
     .logo-burger {
         margin-top: 10rem;
         
+    }
+
+    /* about page  */
+
+    .about-p {
+        font-size: 1rem;
     }
 
 
