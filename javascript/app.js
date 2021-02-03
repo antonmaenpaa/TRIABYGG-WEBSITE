@@ -19,10 +19,10 @@ function openSideBar() {
 
     const menu = document.getElementById('mobile-dropdown');
     
-    if(menu.style.height === 0 +'%') {
-      menu.style.height = 100 +'%';
+    if(menu.style.height == '100%') {
+      menu.style.height = null;
     } else {
-      menu.style.height = 0 +'%'
+      menu.style.height = '100%';
     }
 }
 
