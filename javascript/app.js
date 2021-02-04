@@ -9,13 +9,13 @@ function main() {
 function addEventListeners() {
 
     const burgerBars = document.getElementById('burger-click');
-    burgerBars.addEventListener('click', openSideBar);
+    burgerBars.addEventListener('click', openCloseMobilaNavBar);
 
     window.addEventListener('scroll', changeHeaderBgOnScroll);
 }
 
 
-function openSideBar() {
+function openCloseMobilaNavBar() {
 
     const menu = document.getElementById('mobile-dropdown');
     
@@ -26,7 +26,7 @@ function openSideBar() {
     }
 }
 
-/** Fade in header background to black when scrollY is on height 600 */
+/** Fade in header background to white when scrollY is on height 600 */
 function changeHeaderBgOnScroll() {
   const headerBlock = document.querySelector('header');
   let top = window.scrollY;
