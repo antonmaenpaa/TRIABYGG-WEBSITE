@@ -62,13 +62,13 @@
 
     .nav-links-mobile {
         color: orange;
-        padding: 0 0 2rem 0;
+        /* padding: 0 0 2rem 0; */
         font-size: 2rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .mobile-ul {
-        height: 100%;
+        height: 80%;
     }
 
     nav {
@@ -95,6 +95,10 @@
         height: 0.2rem;
         background-color: orange;
         z-index: 1000;
+    }
+
+    .bar-two:hover {
+        margin-top: .3rem;
     }
 
     .main-text-div {

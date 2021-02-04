@@ -190,6 +190,10 @@ main {
     align-items: flex-start;
 }
 
+.flex-end-column {
+    align-items: flex-end;
+}
+
 .content-width {
     width: 80%;
 }
