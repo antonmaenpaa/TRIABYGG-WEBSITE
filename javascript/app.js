@@ -16,8 +16,15 @@ function addEventListeners() {
 
 
 function openCloseMobileNavBar() {
+    const barInvis = document.getElementById('invis-bar');
 
     const menu = document.getElementById('mobile-dropdown');
+
+    if(barInvis.classList == 'invis'){
+      barInvis.classList.remove('invis')
+    } else {
+      barInvis.classList.add('invis');
+    }
     
     if(menu.style.height == '100%') {
       menu.style.height = null;

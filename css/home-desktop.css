@@ -8,6 +8,7 @@ body {
     height: 100%;
 }
 
+
 .header-white {
     background-color: white;
 }
@@ -144,24 +145,7 @@ main {
 }
 
 
-/* footer style */
 
-.language-div {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(255, 255, 255, 0.5);
-    position: fixed;
-    bottom: 0;
-    right: 30px;
-    width: 7rem;
-    height: 2rem;
-    border-radius: 1rem 1rem 0 0;
-    padding: .5rem;
-    cursor: pointer;
-}
-
-.arrow {
-    font-weight: bold;
-}
 
 
 /* Reusable classes */
@@ -202,3 +186,16 @@ main {
     flex-direction: column;
 }
 
+.language-div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    width: 7rem;
+    height: 2rem;
+    border-radius: .5rem .5rem 0 0;
+    padding: .5rem;
+    cursor: pointer;
+
+}
