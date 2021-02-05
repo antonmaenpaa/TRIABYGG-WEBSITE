@@ -29,6 +29,10 @@ body {
     display: none;
 }
 
+.burger-language-link {
+    color: gray;
+}
+
 /* .mobile-ul,
 a .nav-links-mobile {
     display: none;
