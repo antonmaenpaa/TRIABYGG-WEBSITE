@@ -81,10 +81,17 @@
     .work-img {
         width: auto;
         height: 15rem;
-        
+    }
+
+    #gallery {
+        width: 100%;
     }
 
     /* contact page */
+
+    #contact {
+        margin-top: 15rem;
+    }
 
     .contact-socials-div-mobile {
         flex-direction: column;

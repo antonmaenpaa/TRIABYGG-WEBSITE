@@ -143,6 +143,11 @@
         margin: 0;
     }
 
+    #gallery {
+        width: 80%;
+    }
+
+
     .img-one {
         margin-bottom: 2rem;
         margin-right: 0;
@@ -160,6 +165,12 @@
     
 
     /* contact page */
+
+    
+    #contact {
+        margin-top: 5rem;
+    }
+
 
     .contact-socials-div-mobile {
         margin-bottom: 2rem;

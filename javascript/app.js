@@ -11,6 +11,32 @@ function addEventListeners() {
     const burgerBars = document.getElementById('burger-click');
     burgerBars.addEventListener('click', openCloseMobileNavBar);
 
+    const sideLinks = document.getElementById('close');
+    const sideLinks1 = document.getElementById('close1');
+    const sideLinks2 = document.getElementById('close2');
+    const sideLinks3 = document.getElementById('close3');
+
+    sideLinks.onclick = closeSidebarOnLinks
+    sideLinks1.onclick = closeSidebarOnLinks
+    sideLinks2.onclick = closeSidebarOnLinks
+    sideLinks3.onclick = closeSidebarOnLinks
+
+    const current = document.getElementById("current");
+    const opacity = 0.6;
+    const imgs = document.querySelectorAll(".img");
+    imgs.forEach(img => {
+      img.addEventListener("click", (e) => {
+        //reset opacity
+        imgs.forEach(img => {img.style.opacity = 1;
+        });
+      current.src = e.target.src;
+      //adding class 
+      //current.classList.add("fade-in");
+      //opacity
+      e.target.style.opacity = opacity; 
+      });
+    });
+
     window.addEventListener('scroll', changeHeaderBgOnScroll);
 }
 
@@ -47,20 +73,8 @@ function changeHeaderBgOnScroll() {
 
 }
 
-// function showBorderOnActiveLink() {
-
-
-//     var header = document.getElementById("links");
-//     var btns = header.getElementsByClassName("nav-links");
-//     for (var i = 0; i < btns.length; i++) {
-//       btns[i].addEventListener("click", function() {
-//       var current = document.getElementsByClassName("active");
-//       if (current.length > 0) { 
-//         current[0].className = current[0].className.replace(" active", "");
-//       }
-//       this.className += " active";
-//       });
-//     }
-
-//  }
+function closeSidebarOnLinks() {
+  const menu = document.getElementById('mobile-dropdown');
+  menu.style.height = null;
+}
 
