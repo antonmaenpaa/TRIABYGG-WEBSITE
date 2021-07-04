@@ -12,7 +12,7 @@ body,
 
 
 .header-white {
-    background-color: white;
+    background-color:  rgba(139, 134, 128, 0.9);
 }
 
 .header-white {
@@ -100,7 +100,7 @@ a {
 
 .background {
     /* background-attachment: fixed; */
-    background-image: url(../pictures/rsz_1background-one.jpg);
+    background-image: url(../pictures/background-one.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@ main {
 
 .language-div {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(139, 134, 128, 0.5);
     position: fixed;
     bottom: 0;
     right: 30px;
