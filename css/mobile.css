@@ -8,6 +8,14 @@
         height: 30%;
         
     }
+
+    .content-width {
+        width: 90%;
+    }
+
+    .header-width {
+        width: 90%;
+    }
     
 
     .logo-burger {
@@ -66,18 +74,33 @@
 
     main {
         height: 100%;
+        /* margin-bottom: 20rem; */
     }
+
 
  
 
 
     /* about page  */
 
+    #about {
+        /* margin: 40rem 0 3rem 0; */
+        /* height: 170%; */
+    }
+
     .about-p {
         font-size: 1rem;
     }
 
+    .person-container {
+        padding: 1rem;
+    }
+
     /* services page */
+
+    #service {
+        /* margin: 40rem 0 3rem 0; */
+    }
     .work-img {
         width: auto;
         height: 15rem;
@@ -85,6 +108,12 @@
 
     #gallery {
         width: 100%;
+    }
+
+    .working-imgs {
+        margin-right: .2rem;
+        margin-left: .2rem;
+        height: 10rem;
     }
 
     /* contact page */

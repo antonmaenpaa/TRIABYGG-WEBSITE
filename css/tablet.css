@@ -135,6 +135,22 @@
         
     }
 
+    #about {
+        margin: 3rem 0 3rem 0;
+        /* height: 190%; */
+    }
+
+    /* about */
+
+    .person-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .person-div {
+        margin: 0;
+    }
+
     /* services page */
 
 
@@ -164,7 +180,7 @@
     }
 
     .language-div {
-        display:none;
+        /* display:none; */
     }
     
 

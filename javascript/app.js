@@ -3,6 +3,7 @@ window.addEventListener('load', main);
 function main() {
     // showBorderOnActiveLink();
     addEventListeners();
+    AOS.init();
  
 }
 
@@ -38,6 +39,8 @@ function addEventListeners() {
     });
 
     window.addEventListener('scroll', changeHeaderBgOnScroll);
+
+ 
 }
 
 

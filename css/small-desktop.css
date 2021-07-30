@@ -1,4 +1,4 @@
-@media (max-width: 80em) {
+@media (max-width: 70em) {
 
 
     .main-text-div {
@@ -8,4 +8,46 @@
     .main-text-div {
         transition: width 3s;
     }
+
+    /* about */
+
+    .person-container {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .person-h3 {
+        text-align: center;
+    }
+
+    .person-div {
+        margin: 0;
+    }
+
+    .person-img {
+        margin-bottom: 2rem;
+    }
+
+    #erik {
+        margin: 0;
+    }
+
+    #erik-img {
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+
+    /* services */
+
+    .service-container {
+        flex-direction: column;
+    }
+
+    .service-img-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }

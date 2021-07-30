@@ -5,13 +5,59 @@
 
 .about-h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: orange;
+    color:rgb(255,136,0);
     font-size: 2rem;
 
     padding-bottom: 2rem;
 }
 
+.person-div {
+    margin-left: 3rem;
+}
+
+#erik {
+    margin-right: 3rem;
+    margin-left: 0rem;
+}
+
+.person-container {
+    background: #FFE8D3;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin: 1rem 0 1rem 0;
+  }
+
+.person-h3 {
+    margin: 0 0 1rem 0;
+}
+
+.person-img {
+    width: auto;
+    height: 20rem;
+    margin: auto;
+}
+  
+  
+  .middle-info {
+    height: 4rem;
+    background-color: #FF8800;
+    color: white;
+    margin: 5rem 0 2rem 0;
+    
+  }
+  
+  .middle-info > h3 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
 .about-p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
 }
+
+/* #about {
+    margin-top: 5rem;
+    min-height: 100%;
+} */
