@@ -9,18 +9,29 @@
 }
 
 #contact {
-    background: lightgray;
+    background: #434343;
+    padding: 2rem 0 2rem 0;
+}
+
+.contact-container {
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+.contact-container > div > h3 {
+  color: black;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.contact-container > h2 {
+  margin-bottom: 0;
 }
 
 
 
-
-
-
-/* form {
-    display: flex;
-    flex-direction: column;
-} */
 
 /* CONTACT FORM */
 
@@ -56,13 +67,13 @@
   }
   
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border-radius: 1rem;
+    background-color: white;
     padding: 20px;
     width: 100%;
   }
   
-  .col-25 {
+  /* .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
@@ -72,7 +83,7 @@
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
+  } */
   
   /* Clear floats after the columns */
   .row:after {
@@ -82,9 +93,9 @@
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) { */
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-  }
+  /* } */

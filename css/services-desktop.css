@@ -11,7 +11,8 @@
 .service-img-container {
     justify-content: start;
     align-items: start;
-    flex: 1;
+    z-index: -100;
+    margin: 2rem 0 2rem 0;
 }
 .service-img-div {
     position: relative;
@@ -31,7 +32,19 @@
     height: 12rem;
     margin: .5rem 1rem 0 0;
 }
+.concrete-imgs {
+    width: auto;
+    height: 15rem;
+    margin: .5rem 1rem 0 0;
+}
 
+.concrete-div {
+    z-index: -100;
+}
+
+.betong-container-width {
+    width: 50%;
+}
 
 #gallery {
     width: 50%;

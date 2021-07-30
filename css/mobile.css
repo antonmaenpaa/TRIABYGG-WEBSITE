@@ -3,6 +3,16 @@
 
         /* burger menu */
 
+
+    
+.background {
+    /* background-attachment: fixed; */
+    background-image: url(../pictures/mobile-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
     .language-p {
         color: gray;
         height: 30%;
@@ -84,8 +94,9 @@
     /* about page  */
 
     #about {
-        /* margin: 40rem 0 3rem 0; */
-        /* height: 170%; */
+        margin-top: 5rem;
+        /* background: #434343; */
+        color: white;
     }
 
     .about-p {
@@ -100,6 +111,11 @@
 
     #service {
         /* margin: 40rem 0 3rem 0; */
+    }
+
+    .concrete-div {
+        justify-content: center;
+        align-items: center;
     }
     .work-img {
         width: auto;
@@ -118,9 +134,6 @@
 
     /* contact page */
 
-    #contact {
-        margin-top: 15rem;
-    }
 
     .contact-socials-div-mobile {
         flex-direction: column;

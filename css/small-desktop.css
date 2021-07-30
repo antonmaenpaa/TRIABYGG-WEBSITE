@@ -49,5 +49,10 @@
         align-items: center;
     }
 
+    .concrete-div {
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }

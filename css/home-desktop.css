@@ -11,7 +11,12 @@ body {
 }
 
 .header-white {
-    background-color:  rgba(139, 134, 128, 0.9);
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+
+    backdrop-filter: blur(4px);
 }
 
 .header-white {
@@ -103,7 +108,7 @@ a {
 
 .background {
     /* background-attachment: fixed; */
-    background-image: url(../pictures/background-one.jpg);
+    background-image: url(../pictures/concrete-wallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,10 +183,13 @@ main {
 /* FOOTER */
 
 footer {
-    margin-top: 5rem;
     padding: 2rem;
     width: 100%;
-    background: lightsalmon;
+    background: #FF8800;
+}
+
+.footer-social {
+    margin: 1rem;
 }
 
 
@@ -241,11 +249,27 @@ h3, h4 {
     width: 60%;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .full-width {
     width: 100%;
 }
 
 .column {
     flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-margin {
+    margin: 2rem 0 2rem 0;
+}
+
+.text-start {
+    text-align:left;
 }
 

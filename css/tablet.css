@@ -4,6 +4,15 @@
         display: none;
     }
 
+    .background {
+        /* background-attachment: fixed; */
+        background-image: url(../pictures/tablet-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
     /* burger menu */
 
     .language-p {
@@ -48,7 +57,8 @@
         left: 0;
         right: 0;
         height: 0%;
-        background-color:  rgb(139, 134, 128);
+        background-color: #434343;
+        ;
         overflow: hidden;
     }
 
@@ -142,9 +152,14 @@
 
     /* about */
 
+    #about {
+        margin-top: 15rem;
+    }
+
     .person-container {
         flex-direction: column;
         padding: 2rem;
+        background: white;
     }
 
     .person-div {
@@ -179,17 +194,14 @@
         margin-left: 0;
     }
 
-    .language-div {
-        /* display:none; */
+    .concrete-div {
+        justify-content: center;
+        align-items: center;
     }
     
 
     /* contact page */
 
-    
-    #contact {
-        margin-top: 5rem;
-    }
 
 
     .contact-socials-div-mobile {
@@ -204,6 +216,14 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: black;
         font-size: 1rem;
+    }
+
+    .contact-form-container {
+        flex-direction: column;
+    }
+
+    .contact-container {
+        margin: 1rem 0 0 0;
     }
 
 }
