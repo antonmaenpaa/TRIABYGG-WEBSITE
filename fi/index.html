@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRIABYGG - mångsidigt byggföretag i österbotten</title>
     <meta name="description" content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
-    
+
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="TRIABYGG - Ett mångsidigt byggföretag i österbotten">
-    <meta itemprop="description" content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
+    <meta itemprop="description"
+        content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
     <meta itemprop="image" content="http://antonmaenpaa.github.io/TRIABYGG-WEBSITE/pictures/triaByggMetaLogo.png">
-    
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://antonmaenpaa.github.io/TRIABYGG-WEBSITE/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="TRIABYGG - Ett mångsidigt byggföretag i österbotten">
-    <meta property="og:description" content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
+    <meta property="og:description"
+        content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
     <meta property="og:image" content="http://antonmaenpaa.github.io/TRIABYGG-WEBSITE/pictures/triaByggMetaLogo.png">
-    
+
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TRIABYGG - Ett mångsidigt byggföretag i österbotten">
-    <meta name="twitter:description" content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
+    <meta name="twitter:description"
+        content="byggföretag jakobstad österbotten triabygg rakennuspalvelu pietarsaari pohjanmaa">
     <meta name="twitter:image" content="http://antonmaenpaa.github.io/TRIABYGG-WEBSITE/pictures/triaByggMetaLogo.png">
 
     <link rel="stylesheet" href="../css/home-desktop.css">
@@ -32,14 +35,20 @@
     <link rel="stylesheet" href="../css/small-desktop.css">
     <link rel="stylesheet" href="../css/tablet.css">
     <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script defer src="../javascript/app.js"></script>
-    <script defer src="zenscroll-min.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <!-- <title>TRIABYGG</title> -->
 </head>
 
-<body class="background">
+<body class="background-fi">
+    <div class="language-div flex centerh centery">
+        <a id="language-link" href="../index.html">På svenska </a>
+    </div>
     <header class="flex centerh centery">
-        <div class="content-width flex space-between">
+        <div class="header-width flex space-between">
             <a href="./index.html">
                 <img class="triabygg-logo" src="../pictures/TriaByggLogo.png" alt="triabygg byggfirma logo" srcset="">
             </a>
@@ -50,10 +59,10 @@
                     <div class="bar-two"></div>
                 </div>
                 <ul class="flex space-between" id="links">
-                    <a class="nav-links" href="#home">Hem</a>
-                    <a class="nav-links" href="#about">Om</a>
-                    <a class="nav-links" href="#service">Tjänster</a>
-                    <a class="nav-links" href="#contact">Kontakt</a>
+                    <a class="nav-links" href="#home">Koti</a>
+                    <a class="nav-links" href="#about">Meistä</a>
+                    <a class="nav-links" href="#service">Palvelut</a>
+                    <a class="nav-links" href="#contact">Ota yhteyttä</a>
                 </ul>
             </nav>
         </div>
@@ -61,22 +70,22 @@
     <div class="mobile-bar flex centerh centery" id="mobile-dropdown">
         <div class="main-div-dropdown flex centerh centery">
             <ul class="flex column space-between centery mobile-ul">
-                <a class="nav-links-mobile" id="close" href="#home">Hem</a>
-                <a class="nav-links-mobile" id="close1" href="#about">Om</a>
-                <a class="nav-links-mobile" id="close2" href="#service">Tjänster</a>
-                <a class="nav-links-mobile" id="close3" href="#contact">Kontakt</a>
-    
+                <a class="nav-links-mobile" id="close" href="#home">Koti</a>
+                <a class="nav-links-mobile" id="close1" href="#about">Meistä</a>
+                <a class="nav-links-mobile" id="close2" href="#service">Palvelut</a>
+                <a class="nav-links-mobile" id="close3" href="#contact">Ota yhteyttä</a>
+
                 <div class="flex column centerh centery language-p">
-                    <a href="./index.html"  class="burger-p burger-language-link">På Svenska</a>
-                    <a href="./fi/index.html" class="burger-language-link">Suomeksi</a>
+                    <a href="../index.html" class="burger-p burger-language-link">På Svenska</a>
+                    <a href="./index.html" class="burger-language-link">Suomeksi</a>
                     <div class="flex logo-burger">
                         <a href="https://www.instagram.com/triabygg/" target="_blank"><img class="social-media-burger"
-                                src="./pictures/instagram-mobile.png" alt="" srcset=""></a>
+                                src="../pictures/instagram.png" alt="" srcset=""></a>
                         <a href="https://www.facebook.com/TRIAbygg" target="_blank"><img class="social-media-burger"
-                                src="./pictures/facebook-mobile.png" alt="" srcset=""></a>
-    
+                                src="../pictures/facebook.png" alt="" srcset=""></a>
+
                     </div>
-    
+
                 </div>
             </ul>
 
@@ -84,16 +93,16 @@
     </div>
 
     <main class="flex centerh" id="home">
-        <div class="content-width main-div-home flex centerh centery">
-            <div class="flex column main-text-div">
-                <p class="welcome-p">Tervetuloa</p>
+        <div class="header-width main-div-home flex centerh centery">
+            <!-- <div class="flex column main-text-div">
+                <p class="welcome-p">Välkommen till</p>
                 <span class="main-text">
-                    <img class="triabygg-logo-big" src="../pictures/TriaByggLogo.png" alt="triabygg byggfirma logo"
+                    <img class="triabygg-logo-big" src="./pictures/TriaByggLogo.png" alt="triabygg byggfirma logo"
                         srcset="">
                 </span>
-                <p class="main-text">Ett mångsidigt byggföretag i österbotten</p>
+                <h1 class="main-text">Ett mångsidigt byggföretag i österbotten</h1>
 
-            </div>
+            </div> -->
 
 
         </div>
@@ -101,119 +110,348 @@
 
     <!-- ABOUT US -->
 
-    <div class="content-width flex column main-div centerh centery" id="about">
-        <div class="content-width flex column main-div centerh centery">
+    <div data-aos="fade-up" class="full-width flex column centerh centery" id="about">
+        <div class="content-width flex column centerh centery">
             <div class="about-h2-div flex flex-start">
-                <h2 class="about-h2">Om oss</h2>
+                <h2 class="about-h2">Meistä</h2>
 
             </div>
-            <p class="about-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum
+
+
+            <p>
+                Me olemme rakennusyritys Pohjanmaalla, joka tarjoaa kaikenlaiset rakennustyöt sekä laadullisesti että
+                kustannustehokkaasti.
             </p>
-        </div>
 
+            <div data-aos="fade-up" class="flex flex-start full-width flex-wrap concrete-div text-margin">
+                <div class="service-img-div">
+                    <img class="concrete-imgs" src="../pictures/inWork-two.jpg" alt="" srcset="">
 
-        </div>
-
-        <!-- SERVICES -->
-
-        <div class="content-width flex column main-div centerh centery" id="service">
-            <div class="content-width flex column main-div centerh centery">
-                <div class="about-h2-div flex flex-start">
-                    <h2 class="about-h2">Tjänster</h2>
-    
                 </div>
-                <p class="about-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
+                <div class="service-img-div">
+                    <img class="concrete-imgs" src="../pictures/omoss-2.jpg" alt="" srcset="">
+
+                </div>
+                <div class="service-img-div">
+                    <img class="concrete-imgs" src="../pictures/omss-3.jpg" alt="" srcset="">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="flex centerh centery full-width middle-info">
+            <h3>Kunden i fokus - Pålitlig - Välmående</h3>
+        </div>
+
+
+        <div data-aos="fade-up" class="full-width flex column centerh centery">
+            <div class="content-width flex column centerh centery">
+
+                <h3>Vi som jobbar på Triabygg</h3>
+
+                <div data-aos="fade-up" class="person-container flex">
+                    <img class="person-img" src="../pictures/totti.jpg" alt="totti">
+                    <div class="person-div">
+                        <h3 class="person-h3">Kristoffer "Totti" Löfs</h3>
+                        <p>
+                            Kristoffer, tai Totti, on yksi TRIA-Byggin omistajista ja rakentajista. Totin tausta on
+                            rakennusalan perustutkinto ja hän on tehnyt rakennustöitä yli 20 vuotta. Kaikki
+                            rakennustehtävät ovat Totille tuttuja, mutta hänen erikoisosaamisena on märkätilatyöt ja
+                            laatoitustyöt. Totilla on märkätilojen vedeneristäjän sertifikaatti.
+                            <br><br>
+                            Totin parhaat ominaisuudet rakentajana ovat että hän on määrätietoinen ja vastuullinen.
+
+                            Vapaa-aikana Totti vihtyy metsässä ja metsästää kettuja.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div data-aos="fade-up" class="person-container flex">
+                    <div class="person-div" id="erik">
+                        <h3 class="person-h3">Erik Mäenpää</h3>
+                        <p>
+                            Erik on yksi TRIA-Byggin perustajista ja omistajista. Hän on se joka hoitaa kaikki
+                            konttorityöt. Erikillä on perustutkinto rakennusalalla ja tuotantotalouden
+                            insinööritutkinto. Erik on tehnyt töitä veneen- ja talonrakentajana ja hän on ollut 6 vuotta
+                            laskentainsinöörinä rakennusalalla. Sekä konttorityöt että rakennustyöt kuuluvat
+                            luonnollisesti hänen työtehtäviinsä.
+                            <br><br>
+                            Erik on TRIA-Byggissä hän, joka hoitaa kokonaisuuden koska hänellä on sekä käytännöllistä
+                            että teoreettista osaamista. Uusien taitojen oppiminen ja erilaisten ratkaisujen löytäminen
+                            on Erikille kiinnostavaa ja työntekijänä hän on ahkera ja luotettava. Vapaa-aikana Erik
+                            viihtyy luonnossa tai merellä perheen kanssa.
+                        </p>
+
+                    </div>
+                    <img class="person-img" id="erik-img" src="../pictures/erik.jpg" alt="erik">
+
+                </div>
+
+                <div data-aos="fade-up" class="person-container flex">
+                    <img src="../pictures/sam.jpg" alt="" class="person-img">
+
+                    <div class="person-div">
+                        <h3 class="person-h3">Sam Mäenpää</h3>
+                        <p>
+                            Sam on yksi TRIA-Byggin perustajista ja omistajista. Hänellä on artesaanitutkinto.
+                            Puuseppänä Sam on tehnyt yhteensä 15 vuotta töitä Pohjanmaan kahdessa isommissa
+                            purjeveneiden telakoissa ja talonrakentajana 10 vuotta.
+                            <br><br>
+                            Rakentajana Sam on luotettava ja tehokas ja hän suorittaa töitä suurella huolellisuudella.
+                            Jos vapaa-ajalle on aikaa, Sam harrastaa liikuntaa, hän lähtee mielellään juoksemaan.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="flex centerh centery full-width middle-info">
+        <h3>kvalitet - flexibla lösningar - nöjda kunder</h3>
+    </div>
+
+    <!-- SERVICES -->
+
+    <div data-aos="fade-up" class="full-width flex column  centerh centery" id="service">
+        <div class="content-width flex column centerh centery">
+            <div class="about-h2-div flex flex-start">
+                <h2 class="about-h2">Palvelut</h2>
+
+            </div>
+            <h3>Rakennuspalvelut</h3>
+            <p class="p-service">
+                Teemme kaikki rakennustyöt sekä yrityksille että yksityishenkilöille.
+            </p>
+
+            <div class="flex column full-width service-img-container">
+                <div class="flex service-container">
+
+                    <div class="flex">
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/grunden.jpg" alt="">
+                            <div class="centered">Perustus</div>
+                        </div>
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/kok.jpg" alt="">
+                            <div class="centered">Keittiö- ja kalustuksen asennustyöt </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="flex">
+
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/fonster-dorr.jpg" alt="">
+                            <div class="centered">Ikkuna- ja oven asennustyöt </div>
+                        </div>
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/listning.jpg" alt="">
+                            <div class="centered">Listaustyöt</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="flex space-evenly service-container">
+                    <div class="flex">
+
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/golv-tak.jpg" alt="">
+                            <div class="centered">lattia- ja sisäkatto</div>
+                        </div>
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/mellanvaggar.jpg" alt="">
+                            <div class="centered">Väliseinät</div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/stummen.jpg" alt="">
+                            <div class="centered">Runko</div>
+                        </div>
+                        <div class="service-img-div">
+                            <img class="working-imgs" src="../pictures/plattsattning.jpg" alt="">
+                            <div class="centered">Laatoitus ja vesieristystyöt</br> (märkätilojen vedeneristys
+                                sertifikaatti)
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <p>
+                Rakennusyrityksenä meillä on kokonaisvastuu Teidän rakennusprojektistanne. Meidän yhteistyökumppanimme
+                auttavat niissä työvaiheissa, jotka emme itse voi tarjota ja me huolehdimme siitä että kaikki sujuu
+                huolellisesti niin että asiakkailla on niin hyvä kokemus kuin mahdollista koko projektin aikana kunnes
+                työ on valmis. Yhdessä löydämme ratkaisuja!
+            </p>
+
+            <p class="bold text-margin text-start full-width">
+                Ota <a style="color: #ff8800" href="#contact">yhteyttä</a> Erikiin, jos haluatte tarjouksen.
+            </p>
+
+            <h3>Erityisalue: Betonirunko </h3>
+
+            <div data-aos="fade-up" class="flex flex-start full-width flex-wrap concrete-div">
+                <div class="service-img-div">
+                    <img class="concrete-imgs" src="../pictures/betong-grund.jpg" alt="" srcset="">
+                    <div class="centered">
+                        Betoniperustus (muottityöt, raudoitustyöt, valutyöt)
+                    </div>
+                </div>
+                <div class="service-img-div">
+                    <img class="concrete-imgs" src="../pictures/valv-vaggar.jpg" alt="" srcset="">
+                    <div class="centered">
+                        Paikalle valettuja holvia ja seiniä (muottityöt, raudoitustyöt, valutyöt)
+                    </div>
+                </div>
+                <div class="service-img-div">
+                    <img class="concrete-imgs" src="../pictures/concrete-wall.jpg" alt="" srcset="">
+                    <div class="centered">
+                        Betonielementtiasennustyöt (betoniseinät, ontelo, TT-laatta mm)
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-margin">
+                <p>
+                    Asennamme koko rungon. Teemme kaikki betoni valutyöt, asennamme betonielementit ja kaikki puutyöt
+                    vesikattoon asti helposti ja kustannustehokkaasti.
+
+                    Kun talon runkoon tarvitaan vain yksi toimittaja, tilaajan projektipäällikkö/työnjohtaja ei tarvitse
+                    olla yhteydessä moniin eriin toimittajin ja voi säästää aikaa.
+                </p>
+                <p class="text-margin">
+                    Jos valitsette TRIA-Bygg talon rungon toimittajana, me hoidamme koko rungon tekemistä ja olemme
+                    paikalla oikealla hetkellä. Projekti etenee aikataulun mukaan ja tehokkaasti.
+                </p>
+
+                <p class="bold text-margin text-start full-width">
+                    Ota <a style="color: #ff8800" href="#contact">yhteyttä</a> Erikiin, jos haluatte tarjouksen.
                 </p>
 
             </div>
-            
-            
-            
         </div>
 
-        
-    <div class="sevices-div flex centerh centery">
 
-        <div class="gallery content-width flex main-div centerh centery">
 
-            <main id="gallery"  >
-                <div class="main-img">
-                <img src="../pictures/inWork-one.jpg" id="current">    
-                </div>
-                <div class="images">
-                    <img src="../pictures/inWork-one.jpg" class="img">
-                    <img src="../pictures/inWork-two.jpg" class="img">
-                    <img src="../pictures/done-project-one.jpg" class="img">
-    
-                 </div>
+    </div>
+
+    <!-- 
+        <div class="sevices-div flex centerh centery">
+
+            <div class="gallery content-width flex main-div centerh centery">
+
+                <main id="gallery">
+                    <div class="main-img">
+                        <img src="./pictures/inWork-one.jpg" id="current">
+                    </div>
+                    <div class="images">
+                        <img src="./pictures/inWork-one.jpg" class="img">
+                        <img src="./pictures/inWork-two.jpg" class="img">
+                        <img src="./pictures/done-project-one.jpg" class="img">
+
+                    </div>
                 </main>
-    
-            <!-- <img class="work-img img-one" src="./pictures/inWork-one.jpg" alt="">
-            <img class="work-img img-two" src="./pictures/inWork-two.jpg" alt="">
-            <img class="work-img img-three" src="./pictures/done-project-one.jpg" two=""> -->
+
+        </div> -->
+
+    <!-- CONTACT -->
+
+    <div data-aos="fade-up" class="full-width flex column centerh centery" id="contact">
+        <div class="content-width flex column centerh centery">
+            <div class="about-h2-div flex flex-start">
+                <h2 class="about-h2">Kontakt</h2>
+            </div>
+
+            <div class="flex full-width contact-form-container">
+                <div class="container">
+                    <form action="https://formsubmit.co/antonmaenpaa@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Nimi</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="name" name="name" placeholder="Ditt namn.." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="email" name="email" placeholder="Din email.." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Rubrik</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="subject" name="subject" placeholder="Rubrik.." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Meddelande</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="message" name="message" placeholder="Meddelande.." required
+                                    style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Sänd">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-container flex full-width column space-evenly">
+                    <h2>Ota yhteyttä</h2>
+
+                    <div class="flex column">
+                        <h3>Erik Mäenpää</h3>
+                        <p>050 4672 614</p>
+                        <a href="mailto:erik@triabygg.fi">erik@triabygg.fi</a>
+                    </div>
+                    <div class="flex column">
+                        <h3>Sam Mäenpää</h3>
+                        <p>050 5632 600</p>
+                        <a href="mailto:sam@triabygg.fi">sam@triabygg.fi</a>
+                    </div>
+                    <div class="flex column">
+                        <h3>Kristoffer "totti" Löfs</h3>
+                        <p>050 5825 475</p>
+                        <a href="mailto:totti@triabygg.fi">totti@triabygg.fi</a>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
 
     </div>
 
-        <!-- CONTACT -->
 
-        <div class="content-width flex column main-div centerh centery" id="contact">
-            <div class="content-width flex column main-div centerh centery">
-                <div class="about-h2-div flex flex-start">
-                    <h2 class="about-h2">Kontakt</h2>
-    
-                </div>
-                <p class="about-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                </p>
-
-            </div>
-
-            
-    <div class="flex centery centerh contact-socials-div">
-        <div class="flex space-between centery content-width contact-socials-div-mobile">
-
-            <div class="flex centery div-margin">
-                <img class="phone-mail-location-icons" src="../pictures/phone_in_talk_black.png" alt="" srcset="">
-                <p class="contact-p">Tel.</p>
-            </div>
-            <div class="flex centery div-margin">
-                <img class="phone-mail-location-icons" src="../pictures/email_black_18.png" alt="" srcset="">
-                <p class="contact-p">Mail@</p>
-            </div>
-            <div class="flex centery div-margin">
-                <img class="phone-mail-location-icons" src="../pictures/location_on_black.png" alt="" srcset="">
-                <p class="contact-p">Adress</p>
-            </div>
-            <div class="social-icons-contact div-margin">
-                <p class="contact-p">Besök våra sociala kanaler!</p>
-                <div class="flex">
-                    <img class="phone-mail-location-icons" src="../pictures/instagram.png" alt="" srcset="">
-                    <img class="phone-mail-location-icons" src="../pictures/facebook.png" alt="" srcset="">
-    
-                </div>
-            </div>
-
+    <footer class="flex centerh centery column">
+        <div>
+            <H2>Besök gärna våra sociala medier!</H2>
         </div>
-    </div>
-
-    <div class="language-div flex centerh centery">
-        <a href="../index.html">På Svenska </a>
-    </div>
+        <div class="flex">
+            <img class="footer-social" src="../pictures/instagram.png" alt="" srcset="">
+            <img class="footer-social" src="../pictures/facebook.png" alt="" srcset="">
+        </div>
+    </footer>
 
 
 </body>
