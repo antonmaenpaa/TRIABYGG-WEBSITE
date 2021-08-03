@@ -19,6 +19,18 @@
         
     }
 
+    p, h1, h2, h3, h4 {
+        text-align: center;
+    }
+
+    .contact-container > div > a {
+        text-align: center;
+    }
+
+    .p-service {
+        text-align: center;
+    }
+
     .content-width {
         width: 90%;
     }
