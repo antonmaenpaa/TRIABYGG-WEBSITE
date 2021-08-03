@@ -41,20 +41,21 @@ function addEventListeners() {
 }
 
 function openCloseMobileNavBar() {
-    const barInvis = document.getElementById('invis-bar');
-
     const menu = document.getElementById('mobile-dropdown');
+    const barOne = document.querySelector(".bar-one")
+    const barTwo = document.querySelector(".bar-two")
+    console.log(barOne)
 
-    if(barInvis.classList == 'invis'){
-      barInvis.classList.remove('invis')
-    } else {
-      barInvis.classList.add('invis');
-    }
     
     if(menu.style.height == '100%') {
       menu.style.height = null;
+      barOne.classList.remove('open');
+      barTwo.classList.remove('open1');
     } else {
       menu.style.height = '100%';
+      barOne.classList.add('open');
+      barTwo.classList.add('open1');
+      
     }
 }
 
@@ -75,5 +76,8 @@ function changeHeaderBgOnScroll() {
 function closeSidebarOnLinks() {
   const menu = document.getElementById('mobile-dropdown');
   menu.style.height = null;
+  barOne.classList.remove('open');
+  barTwo.classList.remove('open1');
+  barInvis.classList.add('invis');
 }
 
