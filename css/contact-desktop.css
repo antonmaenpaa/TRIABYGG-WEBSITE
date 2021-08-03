@@ -10,20 +10,24 @@
 
 #contact {
     background: #434343;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 4rem 0;
 }
 
 .contact-container {
     background-color: white;
     border-radius: 1rem;
     margin-left: 1rem;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .contact-container > div > h3 {
   color: black;
   font-weight: 400;
   margin-bottom: 0;
+}
+.contact-container > h4 {
+  color: black;
+  margin: 0;
 }
 
 .contact-container > h2 {
@@ -45,6 +49,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    margin: .5rem 0 0 0;
   }
   
   label {
@@ -73,17 +78,6 @@
     width: 100%;
   }
   
-  /* .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  } */
   
   /* Clear floats after the columns */
   .row:after {
@@ -92,10 +86,8 @@
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 600px) { */
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-  /* } */
+  

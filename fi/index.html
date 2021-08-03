@@ -364,53 +364,43 @@
     <div data-aos="fade-up" class="full-width flex column centerh centery" id="contact">
         <div class="content-width flex column centerh centery">
             <div class="about-h2-div flex flex-start">
-                <h2 class="about-h2">Ota yhteyttä</h2>
+                <h2 class="about-h2" style="margin-bottom: 0;">Ota yhteyttä</h2>
             </div>
+            <p style="color: white;" class="text-margin full-width">Hör gärna av dig så hittar vi en lösning som passar för just ditt projekt</p>
 
             <div class="flex full-width contact-form-container">
                 <div class="container">
                     <form action="https://formsubmit.co/antonmaenpaa@gmail.com" method="POST">
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="fname">Nimi</label>
+                        <h4 style="margin: 0 0 .5rem 0; color: black;">E-POST</h4>
+                            <div class="row">
+                                <div class="col-75">
+                                    <input type="text" id="name" name="name" placeholder="Namn (Obligatorisk)" required>
+                                </div>
                             </div>
-                            <div class="col-75">
-                                <input type="text" id="name" name="name" placeholder="Ditt namn.." required>
+                            <div class="row">
+                                <div class="col-75">
+                                    <input type="text" id="email" name="email" placeholder="Email (Obligatorisk)" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="email">Email</label>
+                            <div class="row">
+                                <div class="col-75">
+                                    <input type="text" id="subject" name="subject" placeholder="Rubrik (Obligatorisk)" required>
+                                </div>
                             </div>
-                            <div class="col-75">
-                                <input type="text" id="email" name="email" placeholder="Din email.." required>
+                            <div class="row">
+                                <div class="col-75">
+                                    <textarea id="message" name="message" placeholder="Ditt meddelande" required
+                                        style="height:200px"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="subject">Rubrik</label>
+                            <div class="row">
+                                <input type="submit" value="Sänd">
                             </div>
-                            <div class="col-75">
-                                <input type="text" id="subject" name="subject" placeholder="Rubrik.." required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="subject">Meddelande</label>
-                            </div>
-                            <div class="col-75">
-                                <textarea id="message" name="message" placeholder="Meddelande.." required
-                                    style="height:200px"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <input type="submit" value="Sänd">
-                        </div>
-                    </form>
+                        </form>
                 </div>
 
                 <div class="contact-container flex full-width column space-evenly">
-                    <h2>Ota yhteyttä</h2>
+                    <h4>Ota yhteyttä</h4>
 
                     <div class="flex column">
                         <h3>Erik Mäenpää</h3>
