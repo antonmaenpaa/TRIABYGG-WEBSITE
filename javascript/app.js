@@ -42,8 +42,8 @@ function addEventListeners() {
 
 function openCloseMobileNavBar() {
     const menu = document.getElementById('mobile-dropdown');
-    const barOne = document.querySelector(".bar-one")
-    const barTwo = document.querySelector(".bar-two")
+    const barOne = document.querySelector(".bar-one");
+    const barTwo = document.querySelector(".bar-two");
     console.log(barOne)
 
     
@@ -75,9 +75,11 @@ function changeHeaderBgOnScroll() {
 
 function closeSidebarOnLinks() {
   const menu = document.getElementById('mobile-dropdown');
+  const barOne = document.querySelector(".bar-one");
+  const barTwo = document.querySelector(".bar-two");
   menu.style.height = null;
   barOne.classList.remove('open');
   barTwo.classList.remove('open1');
-  barInvis.classList.add('invis');
+
 }
 
