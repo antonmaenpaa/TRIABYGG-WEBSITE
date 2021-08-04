@@ -4,8 +4,22 @@
         display: none;
     }
 
+    .mobile-dark-container {
+        display: unset;
+        width: 100%;
+        background-color: #434343;
+        display: flex;
+        justify-content: center;
+        z-index: -1000;
+        color: white;
+    
+    }
+
+    .text-white {
+        color: white;
+    }
+
     .background {
-        /* background-attachment: fixed; */
         background-image: url(../pictures/tablet-bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -13,140 +27,6 @@
     
     }
 
-    /* burger menu */
-
-    .language-p {
-        color: gray;
-    
-    }
-
-    .strict-link {
-        color: orange;
-        padding: 0 0 4rem 0;
-        font-size: 2rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .logo-burger {
-        margin-top: 2rem;
-        
-    }
-
-    #srict-margin {
-        padding-bottom: 4rem;
-    }
-
-    .burger-p {
-        margin-bottom: 0.5rem;
-    }
-
-    .social-media-burger {
-        width: auto;
-        height: 2rem;
-        margin: .5rem;
-        filter: grayscale(100%);
-    }
-    
-
-    #mobile-dropdown {
-        display: unset;
-
-        
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 0%;
-        background-color: #434343;
-        ;
-        overflow: hidden;
-    }
-
-    header {
-        z-index: 1000;
-    }
-
-    #mobile-dropdown {
-        transition: height 1s;
-    }
-
-    .main-div-dropdown {
-        height: 100%;
-    }
-
-    .nav-links-mobile {
-        color: orange;
-        /* padding: 0 0 2rem 0; */
-        font-size: 2rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .mobile-ul {
-        height: 80%;
-        margin-top: 4rem;
-    }
-
-    nav {
-        width: 3rem;
-        display: flex;
-        align-items: center;
-    }
-    .mobile-click {
-        display: unset;
-        z-index: 1000;
-        cursor: pointer;
-        transition: all .5s ease-in-out;
-
-    }
-
-    .bar-one {
-        width: 3rem;
-        height: 0.2rem;
-        background-color: orange;
-        margin-bottom: 0.2rem;
-        z-index: 1000;
-        transition: all .5s ease-in-out;
-    }
-
-    .open {
-        transform: rotate(45deg) translate(5px, 1px);
-        transition: all .5s ease-in-out;
-      }
-    .open1 {
-        transform: rotate(-45deg) translate(4px, 1px);
-        transition: all .5s ease-in-out;
-
-      }
-
-    .bar-two {
-        height: 0.2rem;
-        background-color: orange;
-        margin-top: 0.2rem;
-        z-index: 1000;
-        transition: all .5s ease-in-out;
-    }
-
-    .main-text-div {
-        width: 73%;
-    }
-
-    #hide-footer {
-        display: none;
-    }
-
-    main {
-        height: 100%;
-    }
-
-    .language-p {
-        color: gray;
-    
-    }
-
-    .logo-burger {
-        margin-top: 10rem;
-        
-    }
 
     #about {
         margin: 3rem 0 3rem 0;
@@ -155,8 +35,8 @@
 
     /* about */
 
-    #about {
-        margin-top: 15rem;
+    .middle-info {
+        margin: 0;
     }
 
     .person-container {
@@ -214,6 +94,9 @@
     /* contact page */
 
 
+    #contact {
+        background-color: white;
+    }
 
     .contact-socials-div-mobile {
         margin-bottom: 2rem;

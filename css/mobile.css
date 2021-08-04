@@ -4,10 +4,33 @@
         /* burger menu */
 
 
+.mobile-dark-container {
+    display: unset;
+    width: 100%;
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+    color: white;
+
+}
+ .text-white {
+     color: white;
+ }
+
     
 .background {
     /* background-attachment: fixed; */
     background-image: url(../pictures/mobile-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.background-fi {
+    /* background-attachment: fixed; */
+    background-image: url(../pictures/MOBIL-FINSK-bakgrund.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +129,7 @@
     /* about page  */
 
     #about {
-        margin-top: 5rem;
+        margin-top: -3rem;
         /* background: #434343; */
         color: white;
     }
@@ -118,6 +141,33 @@
     .person-container {
         padding: 1rem;
     }
+
+    .middle-info {
+        margin: 0;
+    }
+
+    .image-stack__item--bottom {
+        grid-column: 4 / -1;
+        grid-row: 1;
+        width: 50%;
+        z-index: 2;
+        margin-left: 1.5rem;
+      }
+      .image-stack__item--bottom-2 {
+        grid-column: 8 / span 12;
+        grid-row: 1;
+        padding-top: 40%;
+        width: 90%;
+      }
+      
+      .image-stack__item--top {
+        grid-row: 1;
+        grid-column: 1 / span 8;
+        padding-top: 20%; /* slightly arbitrary, keeps proportion once resized */
+        z-index: 3; /* tells the browser to make this image on top*/
+        width: 60%;
+        margin-left: 1.5rem;
+      }
 
 
 

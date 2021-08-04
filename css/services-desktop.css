@@ -8,6 +8,11 @@
     
 }
 
+#service {
+    scroll-margin-top: 100px;
+    color: white;
+}
+
 .service-img-container {
     justify-content: start;
     align-items: start;
@@ -54,10 +59,7 @@
 img {
     Width:100%;
   }
-  
-#service {
-    margin: 2rem 0 2rem 0;
-}
+
 
 .p-service {
     text-align: left;
