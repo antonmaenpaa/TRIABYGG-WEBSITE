@@ -11,15 +11,18 @@ body {
 }
 
 
-
+a {
+    cursor: pointer;
+    /* z-index: 100; */
+}
 
 .mobile-dark-container {
-    display: unset;
+    /* display: unset; */
     width: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
-    z-index: -1000;
+    /* z-index: -100; */
     padding-bottom: 2rem;
 
 }
@@ -71,6 +74,7 @@ header {
 
     width: 100%;
     height: 5rem;
+    z-index: 100;
 }
 
 .header-width {
@@ -146,7 +150,7 @@ a {
 main {
     width: 100%;
     height: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
 }
 

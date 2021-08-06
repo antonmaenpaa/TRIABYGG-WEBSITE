@@ -10,7 +10,7 @@
         background-color: #434343;
         display: flex;
         justify-content: center;
-        z-index: -1000;
+        /* z-index: -1000; */
         color: white;
     
     }
@@ -27,14 +27,18 @@
     
     }
 
-
-    #about {
-        margin: 3rem 0 3rem 0;
-        /* height: 190%; */
+    #home {
+        margin-bottom: 0;
     }
 
+    
     /* about */
-
+    
+    
+    #about {
+        margin: 0;
+        /* height: 190%; */
+    }
     .middle-info {
         margin: 0;
     }
@@ -56,6 +60,7 @@
     .desktop {
         display: none;
     }
+
 
     /* services page */
 
@@ -118,6 +123,10 @@
 
     .contact-container {
         margin: 1rem 0 0 0;
+    }
+
+    .p-service {
+        text-align: center;
     }
 
 }

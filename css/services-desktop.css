@@ -16,7 +16,7 @@
 .service-img-container {
     justify-content: start;
     align-items: start;
-    z-index: -100;
+    z-index: 90;
     margin: 2rem 0 2rem 0;
 }
 .service-img-div {
@@ -45,7 +45,7 @@
 
 
 .concrete-div {
-    z-index: -100;
+    /* z-index: -100; */
 }
 
 .betong-container-width {
