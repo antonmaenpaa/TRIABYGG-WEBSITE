@@ -13,6 +13,10 @@
         color: white;
     }
 
+    .mobile-bar {
+        z-index: 100;
+    }
+
     .text-white {
         color: white;
     }
