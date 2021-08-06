@@ -10,9 +10,7 @@
         background-color: #434343;
         display: flex;
         justify-content: center;
-        /* z-index: -1000; */
         color: white;
-    
     }
 
     .text-white {
@@ -24,7 +22,6 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    
     }
 
     #home {

@@ -4,8 +4,6 @@
 
 .service-container {
     justify-content: space-evenly;
-
-    
 }
 
 #service {
@@ -26,12 +24,12 @@
     font-weight: bold;
   }
 
-  .centered {
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 .working-imgs {
     width: auto;
     height: 12rem;
@@ -81,16 +79,11 @@ img {
     height: 80%;
 }
 
-
 .work-img {
     width: auto;
     height: 20rem;
-    
 }
-
 
 .gallery {
     margin: 0 0 4rem 0;
-    
-  
 }
