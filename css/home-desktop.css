@@ -197,7 +197,7 @@ main {
 /* FOOTER */
 
 footer {
-    padding: 2rem;
+    height: 8rem;
     width: 100%;
     background: #FF8800;
 }
@@ -206,6 +206,24 @@ footer {
     margin: 0 1rem 0 1rem;
     width: auto;
     height: 3rem;
+}
+
+.relative {
+    position: relative;
+    height: 100%;
+}
+
+.absolute-pos {
+    position: absolute;
+    left: 3px;
+    height: 8rem;
+}
+
+.absolute-pos > p {
+    font-size: .7rem;
+}
+.absolute-pos > p > a{
+    font-size: .7rem;
 }
 
 /* Reusable classes */
@@ -257,6 +275,10 @@ h3, h4 {
 
 .flex-end-column {
     align-items: flex-end;
+}
+
+.flex-end {
+    justify-content: flex-end;
 }
 
 .content-width {

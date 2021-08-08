@@ -13,6 +13,9 @@
         color: white;
     }
 
+    .content-width {
+        width: 80%;
+    }
     .mobile-bar {
         z-index: 300;
     }
