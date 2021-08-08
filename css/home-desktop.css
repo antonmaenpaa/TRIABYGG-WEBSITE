@@ -13,16 +13,13 @@ body {
 
 a {
     cursor: pointer;
-    /* z-index: 100; */
 }
 
 .mobile-dark-container {
-    /* display: unset; */
     width: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
-    /* z-index: -100; */
     padding-bottom: 2rem;
 
 }
@@ -56,11 +53,6 @@ a {
 .burger-language-link {
     color: black;
 }
-
-/* .mobile-ul,
-a .nav-links-mobile {
-    display: none;
-} */
 
 /* header content */
 
@@ -120,7 +112,7 @@ a {
 .nav-links:active {
     -webkit-transform: scale(1.5);
      transform: scale(1.5);
-    color: orange;
+    color: #FF8800;
       }
 
 
@@ -195,6 +187,7 @@ main {
     border-radius: .5rem .5rem 0 0;
     padding: .5rem;
     cursor: pointer;
+    z-index: 200;
 }
 
 #language-link {

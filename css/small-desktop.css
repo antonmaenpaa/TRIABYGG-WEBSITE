@@ -11,7 +11,7 @@
     }
 
     .strict-link {
-        color: orange;
+        color: #FF8800;
         padding: 0 0 4rem 0;
         font-size: 2rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,6 +45,7 @@
         height: 0%;
         background-color: #434343;
         overflow: hidden;
+        z-index: 400;
     }
 
     header {
@@ -60,7 +61,7 @@
     }
 
     .nav-links-mobile {
-        color: orange;
+        color: #FF8800;
         /* padding: 0 0 2rem 0; */
         font-size: 2rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,7 +91,7 @@
     .bar-one {
         width: 3rem;
         height: 0.2rem;
-        background-color: orange;
+        background-color: #FF8800;
         margin-bottom: 0.2rem;
         z-index: 1000;
         transition: all .5s ease-in-out;
@@ -108,7 +109,7 @@
 
     .bar-two {
         height: 0.2rem;
-        background-color: orange;
+        background-color: #FF8800;
         margin-top: 0.2rem;
         z-index: 1000;
         transition: all .5s ease-in-out;
