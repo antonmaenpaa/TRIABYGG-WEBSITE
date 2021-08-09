@@ -1,4 +1,4 @@
-@media (max-width: 70em) {
+@media (max-width: 75em) {
 
     /* burger menu */
 
@@ -84,7 +84,7 @@
         transition: all .5s ease-in-out;
 
     }
-    p, h1, h2, h3, h4 {
+    p, h1, h2, h3, h4, .p-service {
         text-align: center;
     }
 
@@ -205,5 +205,9 @@
     .concrete-div {
         justify-content: center;
         align-items: center;
+    }
+
+    .service-img-div {
+        margin: .3rem;
     }
 }

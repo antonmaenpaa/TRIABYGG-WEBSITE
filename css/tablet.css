@@ -41,7 +41,6 @@
     
     #about {
         margin: 0;
-        /* height: 190%; */
     }
     .middle-info {
         margin: 0;
@@ -71,27 +70,6 @@
 
     #main-div-services {
         height: 100%;
-    }
-    
-    .gallery {
-        flex-direction: column;
-        margin: 0;
-    }
-
-    #gallery {
-        width: 80%;
-    }
-
-
-    .img-one {
-        margin-bottom: 2rem;
-        margin-right: 0;
-    }
-    .img-two {
-        margin-bottom: 2rem;
-    }
-    .img-three {
-        margin-left: 0;
     }
 
     .concrete-div {

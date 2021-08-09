@@ -93,4 +93,9 @@ footer > div {
     width: 100%;
     margin-top: 0;
   }
+
+  input[type=text], input[type=button] {
+    -webkit-appearance: none;
+    border-radius: 0;
+    }
   
