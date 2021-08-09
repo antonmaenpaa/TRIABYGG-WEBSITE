@@ -53,7 +53,7 @@
     }
 
     #mobile-dropdown {
-        transition: height 1s;
+        transition: height .3s;
     }
 
     .main-div-dropdown {
